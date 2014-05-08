@@ -1,0 +1,57 @@
+{
+  "author": {
+    "name": "Luis Specian",
+    "email": "lspecian@gmail.com",
+    "url": "http://specian.com.br/"
+  },
+  "name": "iugu-node",
+  "description": "Biblioteca Iugu para Node.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/lspecian/iugo-node",
+  "keywords": [
+    "iugu",
+    "rest",
+    "api",
+    "sdk"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lspecian/iugo-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lspecian/iugo-node/issues",
+    "email": "lspecian@gmail.com"
+  },
+  "licenses": [
+    {
+      "url": "https://github.com/paypal/rest-api-sdk-nodejs/blob/master/LICENSE.txt"
+    }
+  ],
+  "engines": {
+    "node": ">= v0.6.0"
+  },
+  "main": "./index.js",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*",
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.3.0",
+    "grunt-simple-mocha": "~0.3.2",
+    "mocha-lcov-reporter": "0.0.1",
+    "blanket": "~1.1.5",
+    "coveralls": "~2.0.16"
+  },
+  "scripts": {
+    "blanket": {
+      "pattern": "paypal-rest-sdk.js"
+    },
+    "test": "mocha -t 60000"
+  },
+  "readmeFilename": "README.md",
+  "readme": "",
+  "_id": "iugu-node@0.0.1",
+  "_from": "iugu-node@~0.0.1"
+}
