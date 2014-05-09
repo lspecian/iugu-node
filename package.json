@@ -35,20 +35,10 @@
     
   },
   "devDependencies": {
-    "chai": "*",
-    "mocha": "*",
-    "grunt": "~0.4.1",
-    "grunt-contrib-jshint": "~0.3.0",
-    "grunt-simple-mocha": "~0.3.2",
-    "mocha-lcov-reporter": "0.0.1",
-    "blanket": "~1.1.5",
-    "coveralls": "~2.0.16"
+    
   },
   "scripts": {
-    "blanket": {
-      "pattern": "paypal-rest-sdk.js"
-    },
-    "test": "mocha -t 60000"
+    
   },
   "readmeFilename": "README.md",
   "readme": "",
