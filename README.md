@@ -1,4 +1,9 @@
-iugu-node
-=========
+# Iugu
 
-Iugu node.js sdk
+Módulo npm para acesso a API da Iugu
+
+## Instalação
+
+Instale com:
+
+    $ npm install iugu-node
