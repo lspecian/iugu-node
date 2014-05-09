@@ -6,7 +6,7 @@
   },
   "name": "iugu-node",
   "description": "Biblioteca Iugu para Node.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/lspecian/iugo-node",
   "keywords": [
     "iugu",
@@ -42,6 +42,6 @@
   },
   "readmeFilename": "README.md",
   "readme": "",
-  "_id": "iugu-node@0.0.1",
-  "_from": "iugu-node@~0.0.1"
+  "_id": "iugu-node@0.0.2",
+  "_from": "iugu-node@~0.0.2"
 }
