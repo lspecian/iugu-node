@@ -3,7 +3,7 @@
 var iugu = require('../');
 require('./config');
 
-var account_id = '0738d949' 
+var account_id = '0738d949-27cf-493b-b079-abf045d13e12' 
 var test = true;
 var data_payment_token = {
   'account_id': account_id, 
