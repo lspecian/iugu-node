@@ -12,14 +12,14 @@ describe('MarketPlace Resource', function() {
         'name': 'Subconta',
         'commission_percent': '10'
       }
-      /*
-      iugu.marketplace.create_account(subconta_data);
+
+      iugu.marketPlace.create_account(subconta_data);
       expect(iugu.LAST_REQUEST).to.deep.equal({
         method: 'POST',
         url: '/v1/marketplace/create_account',
         data: subconta_data
       });
-*/
+
     });
 
   });

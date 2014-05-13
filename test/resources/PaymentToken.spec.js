@@ -9,7 +9,7 @@ describe('PaymentToken Resource', function() {
 
     it('Sends the correct request', function() {
 
-      iugu.token.create({
+      iugu.paymentToken.create({
         card: { number: 123 }
       });
       expect(iugu.LAST_REQUEST).to.deep.equal({
