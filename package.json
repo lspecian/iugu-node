@@ -1,47 +1,32 @@
 {
+  "name": "iugu",
+  "version": "0.0.3",
+  "description": "Iugu API wrapper",
+  "homepage": "https://github.com/lspecian/iugu-node",
   "author": {
     "name": "Luis Specian",
     "email": "lspecian@gmail.com",
     "url": "http://specian.com.br/"
   },
-  "name": "iugu-node",
-  "description": "Biblioteca Iugu para Node.js",
-  "version": "0.0.2",
-  "homepage": "https://github.com/lspecian/iugo-node",
-  "keywords": [
-    "iugu",
-    "rest",
-    "api",
-    "sdk"
-  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/lspecian/iugo-node.git"
+    "url": "git://github.com/lspecian/iugu-node.git"
   },
-  "bugs": {
-    "url": "https://github.com/lspecian/iugo-node/issues",
-    "email": "lspecian@gmail.com"
-  },
-  "licenses": [
-    {
-      "url": "https://github.com/paypal/rest-api-sdk-nodejs/blob/master/LICENSE.txt"
-    }
-  ],
+  "bugs:": "https://github.com/lspecian/iugu-node/issues",
   "engines": {
-    "node": ">= v0.6.0"
+    "node": ">= v0.8.0"
   },
-  "main": "./index.js",
-  "dependencies": {
-    
-  },
+  "main": "lib/iugu.js",
   "devDependencies": {
-    
+    "mocha": "~1.13.0",
+    "chai": "~1.8.0",
+    "chai-as-promised": "~4.0.0",
+    "mocha-as-promised": "~1.4.0"
+  },
+  "dependencies": {
+    "when": "~3.1.0"
   },
   "scripts": {
-
-  },
-  "readmeFilename": "README.md",
-  "readme": "",
-  "_id": "iugu-node@0.0.2",
-  "_from": "iugu-node@~0.0.2"
+    "test": "mocha"
+  }
 }
