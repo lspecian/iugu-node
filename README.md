@@ -1,4 +1,4 @@
-# Iugu para node.js [![Build Status](https://travis-ci.org/iugu/iugu-node.png?branch=master)](https://travis-ci.org/iugu/iugu-node)
+# Iugu para node.js [![Build Status](https://travis-ci.org/lspecian/iugu-node.png?branch=master)](https://travis-ci.org/lspecian/iugu-node)
 
 ## Instalação
 
@@ -11,7 +11,6 @@ var iugu = require('iugu')('c73d49f9-6490-46ee-ba36-dcf69f6334fd'); // Ache sua 
 ```
 ## Documentação
 
-Acesse [iugu.com/documentacao](http://iugu.com/documentacao) para referência
 
 ## Configuração
 
